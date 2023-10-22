@@ -92,6 +92,7 @@ padding-top: 8%;
   border-color: #ba7f5d;
 }
 
+
 .textHistory>h1{
     padding-top: 5%;
     padding-bottom: 5%;
@@ -100,15 +101,16 @@ padding-top: 8%;
 
 .textHistory>p{
     font-size: 16px;
+    font-family: 'Dancing Script', cursive;
 }
 
 .textHistory>div{
    text-align: center;
 }
 
-.lastText{
-    color: #626161;
-}
+/* .lastText{
+    color: #7a3232;
+} */
 
 .lastText{
     padding-bottom: 5%;
@@ -133,11 +135,51 @@ padding-top: 8%;
 .bellagio{
     text-align: center;
     margin-top: 5%;
+    font-family: 'Dancing Script', cursive;
 }
 
 .end{
-    margin-top: 10%;
-    color: #ba7f5d;
+    margin-top: 5%;
+    color: #ba7f5d; 
+}
+
+
+.gallery{
+  margin-top: 8%;
+  display: flex;
+  gap: 10%;
+}
+.gallery>div>h1{
+  text-align: center;
+   font-family: 'Dancing Script', cursive;
+   color: #626161;
+}
+.gallery>div>p{
+  padding-top: 5%;
+   font-family: 'Dancing Script', cursive;
+   color: #454545;
+}
+
+.galleryImg{
+  width: 440px;
+    height: 500px;
+}
+
+.xanzada{
+  padding-top: 8%;
+  padding-left: 8%;
+}
+
+.xanzada>img{
+  border-style: solid;
+    border-width: 1px;
+    border-color: #ba7f5d;
+}
+
+.ulan>img{
+  border-style: solid;
+    border-width: 1px;
+    border-color: #ba7f5d;
 }
 
 
@@ -215,5 +257,18 @@ padding-top: 8%;
     }
     .end>h1{
         font-size: 20px;
+    }
+    .gallery{
+      flex-direction: column;
+      text-align: center;
+    }
+    .galleryImg{
+      width: 350px;
+    }
+    .xanzada{
+      padding: 0;
+    }
+    .gallery>div>p{
+      font-size: 12px;
     }
 }
