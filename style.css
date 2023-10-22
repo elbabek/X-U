@@ -238,12 +238,12 @@ padding-top: 8%;
       flex-direction: column;
     }
     .locationImg {
-    height: 350px;
+    height: 330px;
     width: 375px;
 }
     .map{
         width: 375px;
-        height: 350px;
+        height: 330px;
         margin-top: 3%;
     }
     .history{
